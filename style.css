@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.left{
+    width: 50vw;
+    padding-bottom: 1rem;
+    border :1px solid red;
+}
+.input--email{
+    /* display:inline; */
+  width: 40%;
+ /* margin-bottom: 15px; */
+ border:1px solid red;
+ height: 2rem;
+ display: flex;
+ align-items: center;
+}
+#email{
+    border:none;
+    outline:none;
+}
+.input--phone{
+    /* display:inline; */
+  width: 40%;
+ /* margin-bottom: 15px; */
+ border:1px solid red;
+ height: 2rem;
+ display: flex;
+ align-items: center;
+}
+#no{
+    border:none;
+    outline:none;
+}
+.input--name{
+    /* display:inline; */
+  width: 40%;
+ /* margin-bottom: 15px; */
+ border:1px solid red;
+ height: 2rem;
+ display: flex;
+ align-items: center;
+}
+#name{
+    border:none;
+    outline:none;
+}
+.input--address{
+    /* display:inline; */
+  width: 40%;
+ /* margin-bottom: 15px; */
+ border:1px solid red;
+ height: 2rem;
+ display: flex;
+ align-items: center;
+}
+#address{
+    border:none;
+    outline:none;
+}
+.input--city{
+    /* display:inline; */
+  width: 40%;
+ /* margin-bottom: 15px; */
+ border:1px solid red;
+ height: 2rem;
+ display: flex;
+ align-items: center;
+}
+#city{
+    border:none;
+    outline:none;
+}
+
+.country{
+    /* display:inline; */
+  width: 30%;
+ /* margin-bottom: 15px; */
+ border:1px solid red;
+ height: 2rem;
+ display: flex;
+ align-items: center;
+}
+#country{
+    border:none;
+    outline:none;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <script src="https://kit.fontawesome.com/d6d7ecfc42.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">        
+        <h2>Contact information</h2><br>
+        <form action="result.html" method="get" style="margin-bottom:500px;">
+
+            <label for="email">Email</label><br><br>
+
+            <div class="input--email">
+                <i class="fa-solid fa-envelope"></i>
+            <input type="email" name="Email" id="email" placeholder="Enter your mail">
+           </div><br>
+            
+            <label for="no">Phone</label><br><br>
+
+            <div class="input--phone">
+            <i class="fa-solid fa-phone"></i>
+            <input type="tel" name="Tel.No" id="no" placeholder="Enter your phone...">
+            </div><br>
+
+            <h2>Shipping address</h2><br>
+            <label for="name">Full name</label><br><br>
+            <div class="input--name">
+                <i class="fa-solid fa-user-tie"></i>
+                <input type="name" name="userName" id="name" placeholder="Enter your Full name">
+            </div><br>
+
+            <label for="address">Address</label><br><br>
+            <div class="input--address">
+                <i class="fa-solid fa-house-chimney"></i>
+                <input type="address" name="address" id="address" placeholder="Enter your address">
+            </div><br>
+
+            <label for="city">City</label><br><br>
+            <div class="input--address">
+                <i class="fa-solid fa-city"></i>
+                <input type="city" name="city" id="city" placeholder="Enter your city...">
+            </div><br>
+
+            <label for="country">Country</label><br><br> 
+            <div class="country">           
+            <i class="fa-solid fa-earth-americas"></i>        
+            <select name="country" id="country" size="1">               
+                <option value="Turkey" >Turkey</option>
+                <option value="Germany" >Germany</option>
+                <option value="Holland" >Holland</option>
+            </select>
+        </div>
+
+            
+        </form>
+       </div>
+    </div>
+</body>
+</html>
